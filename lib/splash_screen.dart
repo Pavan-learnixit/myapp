@@ -3,7 +3,8 @@ import 'dart:async';
 // import 'home_page.dart';
 // import 'backup_screen.dart';
 // import 'profile_page.dart';
-import 'setting_screen.dart';
+import 'block_screen.dart';
+// import 'setting_screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -21,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(const Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (_) =>  SettingsScreen(),
+          builder: (_) =>  BlockingScreen(),
         ),
       );
     });
