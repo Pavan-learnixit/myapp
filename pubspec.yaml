@@ -56,6 +56,8 @@ flutter:
     - assets/splash.png
     - assets/drive.png
     - assets/call.png
+    - assets/full_screen.png
+    - assets/classic_popup.png
 
 
   # The following line ensures that the Material Icons font is
