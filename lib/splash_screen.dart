@@ -7,7 +7,8 @@ import 'dart:async';
 // import 'setting_screen.dart';
 // import 'call_screen.dart';
 // import 'assistant_screen.dart';
-import 'message_screen.dart';
+// import 'message_screen.dart';
+import 'details_summary.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -25,7 +26,7 @@ class _SplashScreenState extends State<SplashScreen> {
     Timer(const Duration(seconds: 3), () {
       Navigator.of(context).pushReplacement(
         MaterialPageRoute(
-          builder: (_) =>  MessageScreen(),
+          builder: (_) =>  DetailsSummaryPage(),
         ),
       );
     });
